@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\tera_labs2\prod"
+VIRTUAL_ENV="C:\tera_labs2\prod\tera_labs2"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(prod) ${PS1:-}"
+    PS1="(tera_labs2) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(prod) "
+    VIRTUAL_ENV_PROMPT="(tera_labs2) "
     export VIRTUAL_ENV_PROMPT
 fi
 
